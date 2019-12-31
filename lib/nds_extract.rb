@@ -40,10 +40,9 @@ def total_gross(source)
   total = 0 
   while i < source.length do 
     total += gross_for_director(source[i])
-    print "hi" 
     i += 1 
   end 
-  print total 
+  total 
 end
 
 
