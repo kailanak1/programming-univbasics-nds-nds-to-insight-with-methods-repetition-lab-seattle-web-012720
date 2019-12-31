@@ -40,7 +40,7 @@ def total_gross(source)
   total = 0 
   while i < soure.length do 
     total += gross_for_director(list_of_directors, source)
-    print hi 
+    print "hi" 
     i += 1 
   end 
   print total 
